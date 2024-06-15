@@ -1,0 +1,47 @@
+/* src/components/live/style/FollowedChannelsList.css */
+
+.followed-channels-list {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .channel-box {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer; /* Changer le curseur pour indiquer que c'est clickable */
+  }
+  
+  .channel-box img {
+    width: 40px; /* Ajuster la taille en fonction de vos besoins */
+    height: 40px; /* Ajuster la taille en fonction de vos besoins */
+    border-radius: 50%; /* Rendre l'image circulaire */
+    object-fit: cover; /* Assurer que l'image est bien ajustée */
+    margin-right: 10px;
+  }
+  
+  .channel-info {
+    flex: 1;
+  }
+  
+  .channel-info p {
+    margin: 5px 0;
+  }
+  
+  .channel-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Enlever la décoration du lien */
+    color: #ffffff; /* Couleur du texte */
+  }
+  
+  .channel-link:hover {
+    border-radius: 15px;
+    background-color: #f0f0f0; /* Changement de couleur au survol */
+    color: #333; /* Couleur du texte */
+    width: 500px;
+  }
+  

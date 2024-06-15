@@ -1,0 +1,21 @@
+/* src/components/live/style/Home.css */
+.home-container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.streamy-logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.recommended-section {
+  margin-top: 20px;
+}

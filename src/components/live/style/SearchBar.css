@@ -1,0 +1,35 @@
+/* src/components/live/style/SearchBar.css */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 100%;
+}
+
+.search-button {
+  background-color: #007791;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #005f5f;
+}
+
+.search-button:focus {
+  outline: none;
+}

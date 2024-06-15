@@ -1,0 +1,35 @@
+/* src/components/live/style/LiveChannelsGallery.css */
+.live-channels-gallery {
+  margin-top: 20px;
+}
+
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.live-channel {
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.live-channel iframe {
+  width: 100%; /* Utilisez 100% de la largeur du conteneur parent */
+  height: 180px;
+}
+
+.channel-info {
+  padding: 10px;
+}
+
+.channel-info h3 {
+  font-size: 1em;
+  margin: 0 0 5px;
+}
+
+.channel-info p {
+  margin: 5px 0;
+}

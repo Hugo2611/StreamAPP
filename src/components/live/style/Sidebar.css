@@ -1,0 +1,35 @@
+/* src/components/live/style/Sidebar.css */
+
+.sidebar-container {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.streamy-logo {
+  width: 100px;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.sidebar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sidebar-links a:hover {
+  text-decoration: underline;
+}
